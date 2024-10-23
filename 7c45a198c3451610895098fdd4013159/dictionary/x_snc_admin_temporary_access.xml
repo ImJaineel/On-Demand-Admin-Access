@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="97238917c35512106a0cd4fc05013124" label="Temporary Access" max_length="40" name="x_snc_admin_temporary_access" type="collection">
+        <element label="Access Granted" mandatory="true" max_length="40" name="access_granted" type="string"/>
+        <element label="Additional Comment" max_length="4000" name="additional_comment" type="journal_input"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Granted" max_length="40" name="granted" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" mandatory="true" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Request Ticket" mandatory="true" max_length="32" name="request_ticket" reference="task" type="reference"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="request_ticket"/>
+        </index>
+        <index name="index2">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
