@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_admin.user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>x_snc_admin.user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-09-30 19:43:08</sys_created_on>
+        <sys_id>b1656d58c3451610895098fdd40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_admin.user</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>sys_user_role_b1656d58c3451610895098fdd40131b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-09-30 19:43:08</sys_updated_on>
+    </sys_user_role>
+</record_update>

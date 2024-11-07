@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>false</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description>Default access control on x_snc_admin_temporary_acess</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_snc_admin_temporary_acess</name>
+        <operation display_value="delete">delete</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 16:21:04</sys_created_on>
+        <sys_id>d15acf34c34152106a0cd4fc0501312b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_admin_temporary_acess</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>sys_security_acl_d15acf34c34152106a0cd4fc0501312b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 16:38:51</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</application>
+        <file_path/>
+        <instance_id>cede1f89db6ef198ae4c9027c596199e</instance_id>
+        <instance_name>dev212045</instance_name>
+        <name>sys_security_acl_d15acf34c34152106a0cd4fc0501312b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>false</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><decision_type>allow</decision_type><description>Default access control on x_snc_admin_temporary_acess</description><local_or_existing>Local</local_or_existing><name>x_snc_admin_temporary_acess</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-10-02 16:21:04</sys_created_on><sys_id>d15acf34c34152106a0cd4fc0501312b</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_snc_admin_temporary_acess</sys_name><sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package><sys_policy/><sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope><sys_update_name>sys_security_acl_d15acf34c34152106a0cd4fc0501312b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-10-02 16:38:51</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-1201695670</payload_hash>
+        <record_name>x_snc_admin_temporary_acess</record_name>
+        <reverted_from/>
+        <source>d94987f0c34152106a0cd4fc050131cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-02 16:38:52</sys_created_on>
+        <sys_id>716e43f8c34152106a0cd4fc050131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1924e1945880000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-02 16:38:52</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>f56e43f8b3415210d3c90047ba9db1b1</update_guid>
+        <update_guid_history>f56e43f8b3415210d3c90047ba9db1b1:-1201695670,155acf34f5415210de92b5c5161adc2d:581794851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-22 11:20:27</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>af214b23d1d24c958feaa502a5e9c479</sys_id>
+        <sys_metadata>d15acf34c34152106a0cd4fc0501312b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_admin_temporary_acess</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_parent display_value="">9d5acf34c34152106a0cd4fc05013131</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_scope_delete display_value="">15253c05461d432cbd2d43866bf29c44</sys_scope_delete>
+        <sys_update_name>sys_security_acl_d15acf34c34152106a0cd4fc0501312b</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_d15acf34c34152106a0cd4fc0501312b">716e43f8c34152106a0cd4fc050131b2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-22 11:20:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
