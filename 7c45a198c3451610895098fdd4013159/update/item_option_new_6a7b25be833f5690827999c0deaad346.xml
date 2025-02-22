@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Request ServiceNow Admin Access">b4a330b683f31690827999c0deaad3d1</cat_item>
+        <cat_item display_value="ServiceNow Admin Access Management">e0a8653683fb5690827999c0deaad3b0</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -27,7 +27,7 @@
         <help_tag>More information</help_tag>
         <help_text/>
         <hidden>false</hidden>
-        <include_none>false</include_none>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -42,15 +42,15 @@
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>request_for</name>
+        <name>request_type</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>100</order>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Request For</question_text>
-        <read_only>true</read_only>
+        <question_text>Request Type</question_text>
+        <read_only>false</read_only>
         <read_roles/>
         <read_script/>
         <rec_lookup_price/>
@@ -58,10 +58,8 @@
         <record/>
         <record_producer_table/>
         <reference>sys_user</reference>
-        <reference_qual>active=true^EQ</reference_qual>
-        <reference_qual_condition table="sys_user">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
-            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
-        </reference_qual_condition>
+        <reference_qual/>
+        <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
         <save_script><![CDATA[/** This script is executed before the Record is generated
@@ -79,20 +77,20 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:35:26</sys_created_on>
-        <sys_id>1085383283371690827999c0deaad33e</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Request For</sys_name>
+        <sys_created_on>2025-02-22 07:30:39</sys_created_on>
+        <sys_id>6a7b25be833f5690827999c0deaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request Type</sys_name>
         <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
         <sys_policy/>
         <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
-        <sys_update_name>item_option_new_1085383283371690827999c0deaad33e</sys_update_name>
+        <sys_update_name>item_option_new_6a7b25be833f5690827999c0deaad346</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 07:33:30</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:30:39</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>31</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -108,22 +106,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1085383283371690827999c0deaad33e"/>
-    <fx_price action="delete_multiple" query="id=1085383283371690827999c0deaad33e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6a7b25be833f5690827999c0deaad346"/>
+    <fx_price action="delete_multiple" query="id=6a7b25be833f5690827999c0deaad346"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>1085383283371690827999c0deaad33e</id>
+        <id>6a7b25be833f5690827999c0deaad346</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:35:26</sys_created_on>
-        <sys_id>9876bcbe83371690827999c0deaad369</sys_id>
+        <sys_created_on>2025-02-22 07:30:39</sys_created_on>
+        <sys_id>394c2d36837f5690827999c0deaad362</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:35:26</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:30:39</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -131,16 +129,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>1085383283371690827999c0deaad33e</id>
+        <id>6a7b25be833f5690827999c0deaad346</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:35:26</sys_created_on>
-        <sys_id>5076bcbe83371690827999c0deaad369</sys_id>
+        <sys_created_on>2025-02-22 07:30:39</sys_created_on>
+        <sys_id>314c29f2837f5690827999c0deaad383</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:35:26</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:30:39</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

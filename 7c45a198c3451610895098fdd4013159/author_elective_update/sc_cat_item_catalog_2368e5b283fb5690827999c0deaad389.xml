@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Temporary Access Extension ">6e38e93283fb5690827999c0deaad3b6</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 07:13:50</sys_created_on>
+        <sys_id>2368e5b283fb5690827999c0deaad389</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Temporary Access Extension </sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2368e5b283fb5690827999c0deaad389</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 07:13:50</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</application>
+        <file_path/>
+        <instance_id>68009bb51b924250c82acb7b234bcbe1</instance_id>
+        <instance_name>dev272279</instance_name>
+        <name>sc_cat_item_catalog_2368e5b283fb5690827999c0deaad389</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Temporary Access Extension ">6e38e93283fb5690827999c0deaad3b6</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-02-22 07:13:50</sys_created_on><sys_id>2368e5b283fb5690827999c0deaad389</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request Temporary Access Extension </sys_name><sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package><sys_policy/><sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope><sys_update_name>sc_cat_item_catalog_2368e5b283fb5690827999c0deaad389</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-02-22 07:13:50</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-708709937</payload_hash>
+        <record_name>Service Catalog.Request Temporary Access Extension </record_name>
+        <reverted_from/>
+        <source>f9a1b47e83b31690827999c0deaad320</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 07:13:50</sys_created_on>
+        <sys_id>ef68e5b283fb5690827999c0deaad38d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1952c815f4e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 07:13:50</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e368e5b2effb5690f2f2086968382f8d</update_guid>
+        <update_guid_history>e368e5b2effb5690f2f2086968382f8d:-708709937</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request Temporary Access Extension ">702aedb2833f5690827999c0deaad39e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 07:21:17</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>5cccfac2f1884f7883449887be946799</sys_id>
+        <sys_metadata>2368e5b283fb5690827999c0deaad389</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Temporary Access Extension </sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_parent display_value="Request Temporary Access Extension ">6e38e93283fb5690827999c0deaad3b6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_scope_delete display_value="">15253c05461d432cbd2d43866bf29c44</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_2368e5b283fb5690827999c0deaad389</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_2368e5b283fb5690827999c0deaad389">ef68e5b283fb5690827999c0deaad38d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 07:21:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -5,16 +5,16 @@
         <availability>on_desktop</availability>
         <billable>false</billable>
         <category/>
-        <checked_out>false</checked_out>
+        <checked_out/>
         <cost>0</cost>
         <custom_cart/>
-        <delivery_plan/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
         <delivery_plan_script/>
         <delivery_time>1970-01-03 00:00:00</delivery_time>
         <description/>
         <display_price_property>non_zero</display_price_property>
         <entitlement_script/>
-        <flow_designer_flow display_value="Request ServiceNow Admin Access catalog item">d2ecf87e83f71690827999c0deaad3f4</flow_designer_flow>
+        <flow_designer_flow/>
         <fulfillment_automation_level>fully_automated</fulfillment_automation_level>
         <group/>
         <hide_sp>false</hide_sp>
@@ -29,7 +29,7 @@
         <mobile_picture/>
         <mobile_picture_type>use_desktop_picture</mobile_picture_type>
         <model/>
-        <name>Request ServiceNow Admin Access</name>
+        <name>Revoke ServiceNow Admin Access</name>
         <no_attachment_v2>false</no_attachment_v2>
         <no_cart>false</no_cart>
         <no_cart_v2>true</no_cart_v2>
@@ -47,7 +47,7 @@
         <ordered_item_link/>
         <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
-        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b4a330b683f31690827999c0deaad3d1&amp;sysparm_preview=true", "summary");</preview>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=1109e97283fb5690827999c0deaad38c&amp;sysparm_preview=true", "summary");</preview>
         <price>0</price>
         <published_ref/>
         <recurring_frequency/>
@@ -58,50 +58,50 @@
         <sc_ic_item_staging/>
         <sc_ic_version/>
         <sc_template/>
-        <short_description>Request ServiceNow Admin Access</short_description>
+        <short_description>Revoke ServiceNow Admin Access</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
-        <state>published</state>
+        <state/>
         <sys_class_name>sc_cat_item</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:24:15</sys_created_on>
-        <sys_id>b4a330b683f31690827999c0deaad3d1</sys_id>
-        <sys_mod_count>23</sys_mod_count>
-        <sys_name>Request ServiceNow Admin Access</sys_name>
+        <sys_created_on>2025-02-22 07:16:57</sys_created_on>
+        <sys_id>1109e97283fb5690827999c0deaad38c</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Revoke ServiceNow Admin Access</sys_name>
         <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
         <sys_policy/>
         <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
-        <sys_update_name>sc_cat_item_b4a330b683f31690827999c0deaad3d1</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 07:35:35</sys_updated_on>
+        <sys_update_name>sc_cat_item_1109e97283fb5690827999c0deaad38c</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-02-22 07:41:24</sys_updated_on>
         <taxonomy_topic/>
         <template/>
         <template_manager_roles/>
         <type>item</type>
         <use_sc_layout>true</use_sc_layout>
         <vendor/>
-        <version>22</version>
+        <version>11</version>
         <visible_bundle>true</visible_bundle>
         <visible_guide>true</visible_guide>
         <visible_standalone>true</visible_standalone>
         <workflow/>
     </sc_cat_item>
-    <sys_translated_text action="delete_multiple" query="documentkey=b4a330b683f31690827999c0deaad3d1"/>
-    <fx_price action="delete_multiple" query="id=b4a330b683f31690827999c0deaad3d1"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=1109e97283fb5690827999c0deaad38c"/>
+    <fx_price action="delete_multiple" query="id=1109e97283fb5690827999c0deaad38c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price</field>
-        <id>b4a330b683f31690827999c0deaad3d1</id>
+        <id>1109e97283fb5690827999c0deaad38c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:24:15</sys_created_on>
-        <sys_id>6ce3b03a83f31690827999c0deaad3e5</sys_id>
+        <sys_created_on>2025-02-22 07:16:57</sys_created_on>
+        <sys_id>81296d3a83fb5690827999c0deaad369</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:24:15</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:16:57</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>
@@ -109,16 +109,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>recurring_price</field>
-        <id>b4a330b683f31690827999c0deaad3d1</id>
+        <id>1109e97283fb5690827999c0deaad38c</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:24:15</sys_created_on>
-        <sys_id>a8e3b03a83f31690827999c0deaad3e7</sys_id>
+        <sys_created_on>2025-02-22 07:16:57</sys_created_on>
+        <sys_id>c9296d3a83fb5690827999c0deaad369</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:24:15</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:16:57</sys_updated_on>
         <table>sc_cat_item</table>
         <type>calculated</type>
     </fx_price>

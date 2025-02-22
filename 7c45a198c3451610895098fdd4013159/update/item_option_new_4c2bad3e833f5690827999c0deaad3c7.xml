@@ -2,7 +2,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Request ServiceNow Admin Access">b4a330b683f31690827999c0deaad3d1</cat_item>
+        <cat_item display_value="Revoke ServiceNow Admin Access">1109e97283fb5690827999c0deaad38c</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -79,14 +79,14 @@
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:35:26</sys_created_on>
-        <sys_id>1085383283371690827999c0deaad33e</sys_id>
+        <sys_created_on>2025-02-22 07:25:37</sys_created_on>
+        <sys_id>4c2bad3e833f5690827999c0deaad3c7</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Request For</sys_name>
         <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
         <sys_policy/>
         <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
-        <sys_update_name>item_option_new_1085383283371690827999c0deaad33e</sys_update_name>
+        <sys_update_name>item_option_new_4c2bad3e833f5690827999c0deaad3c7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2025-02-22 07:33:30</sys_updated_on>
         <table/>
@@ -108,22 +108,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=1085383283371690827999c0deaad33e"/>
-    <fx_price action="delete_multiple" query="id=1085383283371690827999c0deaad33e"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=4c2bad3e833f5690827999c0deaad3c7"/>
+    <fx_price action="delete_multiple" query="id=4c2bad3e833f5690827999c0deaad3c7"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
-        <id>1085383283371690827999c0deaad33e</id>
+        <id>4c2bad3e833f5690827999c0deaad3c7</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:35:26</sys_created_on>
-        <sys_id>9876bcbe83371690827999c0deaad369</sys_id>
+        <sys_created_on>2025-02-22 07:25:37</sys_created_on>
+        <sys_id>182ba17e833f5690827999c0deaad399</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:35:26</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:25:37</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -131,16 +131,16 @@
         <amount>0</amount>
         <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
-        <id>1085383283371690827999c0deaad33e</id>
+        <id>4c2bad3e833f5690827999c0deaad3c7</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:35:26</sys_created_on>
-        <sys_id>5076bcbe83371690827999c0deaad369</sys_id>
+        <sys_created_on>2025-02-22 07:25:37</sys_created_on>
+        <sys_id>dc2ba17e833f5690827999c0deaad398</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:35:26</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:25:37</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

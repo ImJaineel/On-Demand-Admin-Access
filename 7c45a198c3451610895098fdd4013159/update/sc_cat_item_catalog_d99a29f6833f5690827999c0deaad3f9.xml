@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Request ServiceNow Admin Access">b4a330b683f31690827999c0deaad3d1</sc_cat_item>
+        <sc_cat_item display_value="ServiceNow Admin Access Management">e0a8653683fb5690827999c0deaad3b0</sc_cat_item>
         <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2025-02-22 03:25:41</sys_created_on>
-        <sys_id>2d34f87a83f31690827999c0deaad3a8</sys_id>
+        <sys_created_on>2025-02-22 07:23:15</sys_created_on>
+        <sys_id>d99a29f6833f5690827999c0deaad3f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Service Catalog.Request ServiceNow Admin Access</sys_name>
+        <sys_name>Service Catalog.ServiceNow Admin Access Management</sys_name>
         <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
         <sys_policy/>
         <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
-        <sys_update_name>sc_cat_item_catalog_2d34f87a83f31690827999c0deaad3a8</sys_update_name>
+        <sys_update_name>sc_cat_item_catalog_d99a29f6833f5690827999c0deaad3f9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-02-22 03:25:41</sys_updated_on>
+        <sys_updated_on>2025-02-22 07:23:15</sys_updated_on>
     </sc_cat_item_catalog>
 </record_update>
