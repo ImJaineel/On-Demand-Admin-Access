@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="What Is Request ?">109ab97283b39690827999c0deaad329</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 08:35:12</sys_created_on>
+        <sys_id>0feabdfe83b39690827999c0deaad31e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Remove Fine-Grained Access</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>question_choice_0feabdfe83b39690827999c0deaad31e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 08:56:53</sys_updated_on>
+        <text>Remove Fine-Grained Access</text>
+        <value>remove_fine_grained_access</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=0feabdfe83b39690827999c0deaad31e"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>0feabdfe83b39690827999c0deaad31e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 09:01:41</sys_created_on>
+        <sys_id>e711ce3e83379690827999c0deaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 09:01:41</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>0feabdfe83b39690827999c0deaad31e</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 09:01:41</sys_created_on>
+        <sys_id>ab11ce3e83379690827999c0deaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 09:01:41</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

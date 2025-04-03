@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_admin.scurity_admin-role-sys_id</name>
+        <read_roles/>
+        <suffix>scurity_admin-role-sys_id</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 06:00:26</sys_created_on>
+        <sys_id>6ca7d5fa83b35690827999c0deaad39e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_admin.scurity_admin-role-sys_id</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>sys_properties_6ca7d5fa83b35690827999c0deaad39e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 06:00:26</sys_updated_on>
+        <type>string</type>
+        <value>b2d8f7130a0a0baa5bf52498ecaadeb4</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=6ca7d5fa83b35690827999c0deaad39e"/>
+</record_update>

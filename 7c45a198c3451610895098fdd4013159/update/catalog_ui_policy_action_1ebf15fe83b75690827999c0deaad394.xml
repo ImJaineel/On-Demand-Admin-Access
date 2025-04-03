@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="Request ServiceNow Admin Access">b4a330b683f31690827999c0deaad3d1</catalog_item>
+        <catalog_variable>IO:d20109f6833b1690827999c0deaad3dd</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-02-22 06:35:48</sys_created_on>
+        <sys_id>1ebf15fe83b75690827999c0deaad394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>start_date_and_time</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_1ebf15fe83b75690827999c0deaad394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-02-22 06:35:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'start_date_and_time' mandatory &amp; visible depending on 'access_category'">159f197a83b75690827999c0deaad388</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>start_date_and_time</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=1ebf15fe83b75690827999c0deaad394"/>
+</record_update>
