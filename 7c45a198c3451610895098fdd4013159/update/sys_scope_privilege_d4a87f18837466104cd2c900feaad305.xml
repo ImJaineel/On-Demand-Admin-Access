@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 16:21:50</sys_created_on>
+        <sys_id>d4a87f18837466104cd2c900feaad305</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ForceLogoutUser</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>sys_scope_privilege_d4a87f18837466104cd2c900feaad305</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 16:21:50</sys_updated_on>
+        <target_name>ForceLogoutUser</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_script_include</target_type>
+    </sys_scope_privilege>
+</record_update>
