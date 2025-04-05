@@ -81,7 +81,7 @@
         <sys_id>aed045f2833b1690827999c0deaad381</sys_id>
         <sys_mod_count>4</sys_mod_count>
         <sys_name>Temporary Access Duration</sys_name>
-        <sys_package/>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
         <sys_policy/>
         <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
         <sys_update_name>item_option_new_aed045f2833b1690827999c0deaad381</sys_update_name>

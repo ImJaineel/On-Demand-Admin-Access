@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="request_item" label="Request Item" language="en" table="var__m_sys_hub_flow_input_d2ecf87e83f71690827999c0deaad3f4">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>request_item</element>
+            <help/>
+            <hint/>
+            <label>Request Item</label>
+            <language>en</language>
+            <name>var__m_sys_hub_flow_input_d2ecf87e83f71690827999c0deaad3f4</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2025-02-22 04:31:42</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Request Item</sys_name>
+            <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d2ecf87e83f71690827999c0deaad3f4_request_item_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2025-02-22 04:31:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

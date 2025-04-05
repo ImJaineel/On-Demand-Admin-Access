@@ -41,7 +41,7 @@
         <update_guid_history>253470fa98f31690902742b403f36a7d:-1999715785</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.Request ServiceNow Admin Access">d70aa1f2833f5690827999c0deaad351</sys_audit_delete>
+        <sys_audit_delete display_value="">d70aa1f2833f5690827999c0deaad351</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-22 07:20:55</sys_created_on>

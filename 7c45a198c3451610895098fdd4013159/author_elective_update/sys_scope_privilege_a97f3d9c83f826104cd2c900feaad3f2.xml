@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>delete</operation>
+        <source_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 07:32:26</sys_created_on>
+        <sys_id>a97f3d9c83f826104cd2c900feaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_has_role</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>sys_scope_privilege_a97f3d9c83f826104cd2c900feaad3f2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 07:32:26</sys_updated_on>
+        <target_name>sys_user_has_role</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>sys_db_object</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</application>
+        <file_path/>
+        <instance_id>9dbd9324db7ef950caf99027c5961986</instance_id>
+        <instance_name>dev225514</instance_name>
+        <name>sys_scope_privilege_a97f3d9c83f826104cd2c900feaad3f2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>delete</operation><source_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-05 07:32:26</sys_created_on><sys_id>a97f3d9c83f826104cd2c900feaad3f2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_user_has_role</sys_name><sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package><sys_policy/><sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope><sys_update_name>sys_scope_privilege_a97f3d9c83f826104cd2c900feaad3f2</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-05 07:32:26</sys_updated_on><target_name>sys_user_has_role</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_db_object</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-1930200324</payload_hash>
+        <record_name>sys_user_has_role</record_name>
+        <reverted_from/>
+        <source>4af52554837826104cd2c900feaad357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 07:32:26</sys_created_on>
+        <sys_id>e97f3d9c83f826104cd2c900feaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19604dd7ebd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 07:32:26</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>ed7f3d9cf1f8261064edc4fc58bf9bf3</update_guid>
+        <update_guid_history>ed7f3d9cf1f8261064edc4fc58bf9bf3:-1930200324</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 09:02:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>03adc0de6aec400f9efdacb36445ec01</sys_id>
+        <sys_metadata>a97f3d9c83f826104cd2c900feaad3f2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_user_has_role</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_scope_delete display_value="">15253c05461d432cbd2d43866bf29c44</sys_scope_delete>
+        <sys_update_name>sys_scope_privilege_a97f3d9c83f826104cd2c900feaad3f2</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_a97f3d9c83f826104cd2c900feaad3f2">e97f3d9c83f826104cd2c900feaad3f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 09:02:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -56,7 +56,7 @@
         <update_guid_history>5a9e31f6c8f39690ac132edd0664ab23:2091942203,9e9e31f6b7f396909e4542133fa8e71f:1217185045</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="access_requested_ritm_which_needs_to_be_revoked">1f118e3e83379690827999c0deaad392</sys_audit_delete>
+        <sys_audit_delete display_value="">1f118e3e83379690827999c0deaad392</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-22 09:01:41</sys_created_on>
