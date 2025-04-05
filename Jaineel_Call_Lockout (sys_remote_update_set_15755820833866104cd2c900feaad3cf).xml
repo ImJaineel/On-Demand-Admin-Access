@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2025-04-05 18:27:48">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>This Contains Script include which is used in on-Demand Admin Access module to forceLogoutUser.
+
+This is a mandatory, module need to be deployed, or else without this On-Demand-Admin-Access module won't work.</description>
+<inserted/>
+<name>Jaineel_Call_Lockout</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>1817f3d4837466104cd2c900feaad33d</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-05 18:27:47</sys_created_on>
+<sys_id>15755820833866104cd2c900feaad3cf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-05 18:27:47</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_include_053737d4837466104cd2c900feaad3f2</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;global.ForceLogoutUser&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ForceLogoutUser&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ForceLogoutUser = Class.create();
+ForceLogoutUser.prototype = {
+    initialize: function(user_name) {
+        if (!user_name) {
+            gs.info("⚠️Error⚠️: Username is required.");
+            return;
+        }
+
+        try {
+            GlideSessions.lockOutSessionsInAllNodes(user_name);
+            gs.info(`${user_name} locked out successfully.`);
+
+            // Optionally unlock user to allow future logins
+            // GlideUser.unlock(user_name);
+
+        } catch (e) {
+            gs.info(`⚠️Error⚠️: Failed to logout ${user_name} because of ${e}`);
+        }
+    },
+
+    type: 'ForceLogoutUser'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-05 16:19:50&lt;/sys_created_on&gt;&lt;sys_id&gt;053737d4837466104cd2c900feaad3f2&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;ForceLogoutUser&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_053737d4837466104cd2c900feaad3f2&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-05 16:41:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;sys_es_latest_script action="INSERT_OR_UPDATE"&gt;&lt;id&gt;053737d4837466104cd2c900feaad3f2&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-04-05 16:19:49&lt;/sys_created_on&gt;&lt;sys_id&gt;3228f3d4837466104cd2c900feaad3fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-04-05 16:19:49&lt;/sys_updated_on&gt;&lt;table&gt;sys_script_include&lt;/table&gt;&lt;use_es_latest&gt;true&lt;/use_es_latest&gt;&lt;/sys_es_latest_script&gt;&lt;/record_update&gt;</payload>
+<payload_hash>162598452</payload_hash>
+<remote_update_set display_value="Jaineel_Call_Lockout">15755820833866104cd2c900feaad3cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-05 18:27:47</sys_created_on>
+<sys_id>11755820833866104cd2c900feaad3d0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19606d460d90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-05 18:27:47</sys_updated_on>
+<table/>
+<target_name>ForceLogoutUser</target_name>
+<type>Script Include</type>
+<update_domain>global</update_domain>
+<update_guid>232d7f9cbf746610b8875d991ec871a2</update_guid>
+<update_guid_history>232d7f9cbf746610b8875d991ec871a2:162598452,f86cb31cab746610aa812e614d66605d:-471155601,c8697b58f974661018a4d4f3b53f2f19:1370366295,7f88f358f574661098ca94d9ab14edb9:-450417801,30887f18dc746610bc40b61b6813bd02:1370366295,4b28f3d4db746610f4f6248b6e32aea8:-471155601</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="test">53a6ee1483fc26104cd2c900feaad38a</application>
+<category>customer</category>
+<comments/>
+<name>sys_scope_privilege_359cf79c837466104cd2c900feaad377</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="test">53a6ee1483fc26104cd2c900feaad38a</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-05 16:39:08</sys_created_on><sys_id>359cf79c837466104cd2c900feaad377</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ForceLogoutUser</sys_name><sys_package display_value="test" source="x_1297430_test">53a6ee1483fc26104cd2c900feaad38a</sys_package><sys_policy/><sys_scope display_value="test">53a6ee1483fc26104cd2c900feaad38a</sys_scope><sys_update_name>sys_scope_privilege_359cf79c837466104cd2c900feaad377</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-05 16:39:08</sys_updated_on><target_name>ForceLogoutUser</target_name><target_scope display_value="Global">global</target_scope><target_type>sys_script_include</target_type></sys_scope_privilege></record_update>]]></payload>
+<payload_hash>-1760175404</payload_hash>
+<remote_update_set display_value="Jaineel_Call_Lockout">15755820833866104cd2c900feaad3cf</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2025-04-05 18:27:47</sys_created_on>
+<sys_id>19755820833866104cd2c900feaad3cf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>19606d2029e0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2025-04-05 18:27:47</sys_updated_on>
+<table/>
+<target_name>ForceLogoutUser</target_name>
+<type>Cross scope privilege</type>
+<update_domain>global</update_domain>
+<update_guid>fd9cf79ce07466106287544ddf84c278</update_guid>
+<update_guid_history>fd9cf79ce07466106287544ddf84c278:-1760175404</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
