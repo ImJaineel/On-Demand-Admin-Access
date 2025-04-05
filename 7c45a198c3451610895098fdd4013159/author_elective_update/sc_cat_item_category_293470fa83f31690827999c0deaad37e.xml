@@ -41,7 +41,7 @@
         <update_guid_history>e93470faf4f3169045d0e8e85d11e482:959519909</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Application and Account Access.Request ServiceNow Admin Access">f0e9e572833f5690827999c0deaad31d</sys_audit_delete>
+        <sys_audit_delete display_value="">f0e9e572833f5690827999c0deaad31d</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-22 07:20:12</sys_created_on>

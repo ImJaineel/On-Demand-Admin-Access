@@ -58,7 +58,7 @@
         <update_guid_history>7181707e92b3169094ec43ee478a79b6:-966141187</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_snc_admin_temporary_access.x_snc_admin.user">782c91be83375690827999c0deaad30f</sys_audit_delete>
+        <sys_audit_delete display_value="">782c91be83375690827999c0deaad30f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-02-22 06:20:08</sys_created_on>

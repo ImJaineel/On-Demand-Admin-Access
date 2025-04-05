@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Request ServiceNow Admin Access">b4a330b683f31690827999c0deaad3d1</catalog_item>
+        <catalog_variable>IO:1085383283371690827999c0deaad33e</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 07:36:57</sys_created_on>
+        <sys_id>2f708210833c26104cd2c900feaad38f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>request_for</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_2f708210833c26104cd2c900feaad38f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 07:40:33</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Everything ReadOnly if it's submitted">83cefd1c83f826104cd2c900feaad302</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <variable>request_for</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=2f708210833c26104cd2c900feaad38f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</application>
+        <file_path/>
+        <instance_id>9dbd9324db7ef950caf99027c5961986</instance_id>
+        <instance_name>dev225514</instance_name>
+        <name>catalog_ui_policy_action_2f708210833c26104cd2c900feaad38f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Request ServiceNow Admin Access">b4a330b683f31690827999c0deaad3d1</catalog_item><catalog_variable>IO:1085383283371690827999c0deaad33e</catalog_variable><cleared>false</cleared><disabled>true</disabled><field/><field_message/><field_message_type>none</field_message_type><mandatory>false</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-04-05 07:36:57</sys_created_on><sys_id>2f708210833c26104cd2c900feaad38f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>request_for</sys_name><sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package><sys_policy/><sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope><sys_update_name>catalog_ui_policy_action_2f708210833c26104cd2c900feaad38f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-04-05 07:40:33</sys_updated_on><table/><ui_policy display_value="Everything ReadOnly if it's submitted">83cefd1c83f826104cd2c900feaad302</ui_policy><value/><value_action>ignore</value_action><variable>request_for</variable><variable_set/><visible>ignore</visible></catalog_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=2f708210833c26104cd2c900feaad38f"/></record_update>]]></payload>
+        <payload_hash>-457239873</payload_hash>
+        <record_name>request_for</record_name>
+        <reverted_from/>
+        <source>4af52554837826104cd2c900feaad357</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 07:40:33</sys_created_on>
+        <sys_id>d4514e50833c26104cd2c900feaad3c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19604e4eb330000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 07:40:33</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>5c514e501f3c2610f88e773681f931c5</update_guid>
+        <update_guid_history>5c514e501f3c2610f88e773681f931c5:-457239873,13d00250413c2610e5579aa2747a7abb:-1989176970,a770c610ef3c2610ffce88b8fec421e1:1516713274</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="request_for">b751ce50833c26104cd2c900feaad3bb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-04-05 07:40:48</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>1e4cc6c94e1d421492f5de5ed9eecd24</sys_id>
+        <sys_metadata>2f708210833c26104cd2c900feaad38f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>request_for</sys_name>
+        <sys_package display_value="On-Demand Admin Access" source="x_snc_admin">7c45a198c3451610895098fdd4013159</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="On-Demand Admin Access">7c45a198c3451610895098fdd4013159</sys_scope>
+        <sys_scope_delete display_value="">15253c05461d432cbd2d43866bf29c44</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_2f708210833c26104cd2c900feaad38f</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_2f708210833c26104cd2c900feaad38f">d4514e50833c26104cd2c900feaad3c6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-04-05 07:40:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
